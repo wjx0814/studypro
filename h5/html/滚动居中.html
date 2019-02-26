@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.navwrap {
+				width: 100%;
+				height: 50px;
+				position: relative;
+				overflow: auto;
+			}
+			.nav-ul {
+				width: 780px;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				background: yellow;
+			}
+			.nav-ul>li {
+				float: left;
+				width: 75px;
+				line-height: 50px;
+				text-align: center;
+				list-style: none;
+				border-right: 1px solid aqua;
+				margin-left: 2px;
+			}
+			.conwrap {
+				width: 100%;
+				height: 200px;
+				text-align: center;
+				line-height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navwrap">
+			<ul class="nav-ul">
+				<li>AA</li>
+				<li>BB</li>
+				<li>CC</li>
+				<li>DD</li>
+				<li>EE</li>
+				<li>FF</li>
+				<li>GG</li>
+				<li>HH</li>
+				<li>II</li>
+				<li>JJ</li>
+			</ul>
+		</div>
+		
+		<div class="conwrap">
+		</div>
+		
+		
+	</body>
+</html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="../js/滚动居中.js"></script> -->
+<script>
+	var elposition = $('.nav-ul')
+
+	$('.nav-ul').on('click','li',function(e){
+		var onheadactive = $(this).offset().left;//选中元素距离视口的距离
+		var hweight = $(this).width();//元素的宽度
+		var winweight = $(window).width()/2;//屏幕宽度的一半
+		var indexnum = $(this).index();//当前选中的index
+		var distance = indexnum*hweight-(hweight/2);//选中元素中点距离开始点的距离
+		var slidenum = $('.nav-ul').children().length;
+	
+		//判断在屏幕的右边：选中元素中点距离视口的距离大于屏幕宽度一半
+		//判断元素在可以移动到中心位置的距离范围内：全部元素的宽度-选中元素中点距离开始点的距离大于屏幕宽度一半
+		if(onheadactive+hweight/2>winweight && (slidenum*hweight-distance )>winweight){
+			console.log("左移1");
+			console.log(winweight-distance)
+			$(elposition).css({
+				left:(winweight-distance)+'px'
+			})
+		}else if(onheadactive+hweight/2<winweight && distance >winweight){
+			console.log("右移2");
+			console.log(winweight-distance)
+			$(elposition).css({
+				left:(winweight-distance)+'px'
+			})
+		}else if(onheadactive+hweight/2>winweight){
+			console.log("左移3");
+			console.log(-slidenum*hweight+2*winweight)
+			$(elposition).css({
+				left:-slidenum*hweight+2*winweight+'px'
+			})
+		}else if(onheadactive+hweight/2<winweight){
+			console.log("右移4");
+			// shead.setTranslate(0);
+			// $(elposition).css({
+			// 	left:-slidenum*hweight+2*winweight+'px'
+			// })
+		}
+		
+	})
+</script>

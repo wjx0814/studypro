@@ -1,0 +1,131 @@
+{
+	"selectedimg":[
+					{"pid":"jx1001","srcimg":"images/photo01.jpg"},
+					{"pid":"jx1002","srcimg":"images/zt13.jpg"},
+					{"pid":"jx1003","srcimg":"images/zt15.jpg"},
+					{"pid":"jx1004","srcimg":"images/zt17.jpg"},
+					{"pid":"jx1005","srcimg":"images/zt29.jpg"},
+					{"pid":"jx1005","srcimg":"images/zt31.jpg"},
+					{"pid":"jx1006","srcimg":"images/zt33.jpg"},
+					{"pid":"jx1006","srcimg":"images/zt35.jpg"}
+				  ],
+
+	"electdata":[
+					{
+						"homeelectric":[
+											{"pid":"hd1001","srcimg":"images/jd1.jpg","name":"西点Seeden 咖啡机SD-9031 1.2升 （包邮）","Price":159.00,"suolue":["images/jd1.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LDH-02JFB023","spjf":44},
+											{"pid":"hd1002","srcimg":"images/jd2.jpg","name":"康雅电热水壶+茶壶（套装） TM-196（包邮）","Price":399.00,"suolue":["images/jd2.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LDH-01KY0005","spjf":140},
+											{"pid":"hd1003","srcimg":"images/jd3.jpg","name":"韩国福库营养电饭煲CRP-AH1078FV（包邮）","Price":3888.00,"suolue":["images/jd3.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LDH-02XJ0014","spjf":284},
+											{"pid":"hd1004","srcimg":"images/jd4.png","name":"星钻 豪华塔扇（木纹）FTA 包邮","Price":588.00,"suolue":["images/jd4.png","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LDH-02HJ0021","spjf":294},
+											{"pid":"hd1005","srcimg":"images/jd5.jpg","name":"Electrolux/伊莱克斯 Z803 酒店工业卧室吸尘器家用桶式","Price":1239.00,"suolue":["images/jd5.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"900082619","spjf":290},
+											{"pid":"hd1006","srcimg":"images/jd6.jpg","name":"福库加湿型空气净化机CAC-AH1210FW（包邮）","Price":2999.00,"suolue":["images/jd6.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LDH-02XJ0011","spjf":250},
+											{"pid":"hd1007","srcimg":"images/jd7.jpg","name":"Electrolux伊莱克斯无线立式便携式超静音超强吸力吸尘器","Price":2680.00,"suolue":["images/jd7.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"900273158","spjf":640},
+											{"pid":"hd1008","srcimg":"images/jd8.jpg","name":"七鑫旗蒸汽清洗机","Price":138.00,"suolue":["images/jd8.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LTH-01LG0021","spjf":83},
+											{"pid":"hd1009","srcimg":"images/jd9.jpg","name":"机灵 机灵空调扇系列风扇 N25FKY","Price":499.00,"suolue":["images/jd9.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"LDH-01JL0001","spjf":100},
+											{"pid":"hd10010","srcimg":"images/jd10.jpg","name":"Electrolux/伊莱克斯ZLUX1821IW静音大功率吸尘器","Price":699.00,"suolue":["images/jd10.jpg","images/sh2.jpg","images/sh3.jpg","images/sh4.jpg"],"spid":"900275893","spjf":160}
+									   ],
+						"mobilePhone":[
+											{"pid":"sj1001","srcimg":"images/sj1.jpg","name":"（现金价）苹果 原装线控耳机","Price":179.00}
+
+									  ],
+							   "life":[
+											{"pid":"sh1001","srcimg":"images/sh1.jpg","name":"（现金价）TCL 乐途车载负离","Price":318.00},
+											{"pid":"sh1002","srcimg":"images/sh2.jpg","name":"（现金价）Electrolux","Price":1239.00},
+											{"pid":"sh1003","srcimg":"images/sh3.jpg","name":"（现金价）新品飞科FC9602","Price":1299.00},
+											{"pid":"sh1004","srcimg":"images/sh4.jpg","name":"（现金价）ipeson爱品生 ","Price":4950.00}
+							   		  ],
+							"Kitchen":[
+											{"pid":"cf1001","srcimg":"images/cf1.jpg","name":"（现金价）Electrolux","Price":999.00},
+											{"pid":"cf1002","srcimg":"images/cf2.jpg","name":"（现金价）荣事达料理机 RZ-","Price":259.00},
+											{"pid":"cf1003","srcimg":"images/cf3.jpg","name":"（现金价）荣事达电热锅 SK3","Price":189.00},
+											{"pid":"cf1004","srcimg":"images/cf4.jpg","name":"（现金价）TCL 碧然净水壶 ","Price":312.00},
+											{"pid":"cf1005","srcimg":"images/cf5.jpg","name":"（现金价）亚摩斯爆米花机 BM","Price":348.00},
+											{"pid":"cf1006","srcimg":"images/cf6.jpg","name":"（现金价）TCL 活力苏打水机","Price":1399.00},
+											{"pid":"cf1007","srcimg":"images/cf7.jpg","name":"（现金价）斑马鱼 二代超滤净水","Price":1680.00}
+									  ]
+
+
+					}	
+
+				],
+	  "boygiry":[
+	  				{
+	  					"Jacket":[
+	  								{"pid":"sy1001","srcimg":"images/sy1.jpg","name":"女士韩版蕾丝下摆针织","Price":175.00},
+									{"pid":"sy1002","srcimg":"images/sy2.jpg","name":"女装针织衫荷叶边打底衫TX37 均码","Price":145.00},
+									{"pid":"sy1003","srcimg":"images/sy3.jpg","name":"女装新款韩版百搭毛衣针织衫TX52 均码","Price":160.00},
+									{"pid":"sy1004","srcimg":"images/sy4.jpg","name":"女士中长款下摆蕾丝针织衫毛衣MD52 均码","Price":165.00},
+									{"pid":"sy1005","srcimg":"images/sy5.jpg","name":"新款女装流苏针织衫TX55 均码","Price":165.00},
+									{"pid":"sy1006","srcimg":"images/sy6.jpg","name":"LANYAYI 蓝雅","Price":438.00},
+									{"pid":"sy1007","srcimg":"images/sy7.jpg","name":"女款圆领条纹宽松美女图案针织衫毛衣 均码","Price":165.00},
+									{"pid":"sy1008","srcimg":"images/sy8.jpg","name":"女款天使翅膀百搭毛衣TX55 均码","Price":165.00},
+									{"pid":"sy1009","srcimg":"images/sy9.jpg","name":"女装针织衫打底衫女装TX58 均码","Price":165.00},
+									{"pid":"sy10010","srcimg":"images/sy10.jpg","name":"女士圆领彩色波点针织衫毛衣TX60 均码","Price":170.00}
+	  							 ]
+
+
+
+	  				}
+
+
+
+	  			],
+	  "alcohol":[
+	  				{
+	  					"snacks":[
+	  								{"pid":"ls1001","srcimg":"images/ls1.jpg","name":"（现金价）好亿家小甘薯 红薯味","Price":29.00},
+									{"pid":"ls1002","srcimg":"images/ls2.jpg","name":"（现金价）好亿家冰糖葫芦散装称","Price":29.00},
+									{"pid":"ls1003","srcimg":"images/ls3.jpg","name":"（现金价）好亿家甘栗仁怀柔板栗","Price":29.00},
+									{"pid":"ls1004","srcimg":"images/ls4.jpg","name":"（现金价）好亿家茯苓夹饼","Price":29.00},
+									{"pid":"ls1005","srcimg":"images/ls5.jpg","name":"（现金价）好亿家果脯500g","Price":29.00},
+									{"pid":"ls1006","srcimg":"images/ls6.jpg","name":"（现金价）好亿家小年糕礼盒","Price":29.00},
+									{"pid":"ls1007","srcimg":"images/ls7.jpg","name":"（现金价）150g十月初五紫菜","Price":20.00},
+									{"pid":"ls1008","srcimg":"images/ls8.jpg","name":"（现金价）好亿家果羹系列","Price":23.00},
+									{"pid":"ls1009","srcimg":"images/ls9.jpg","name":"（现金价）176g十月初五迷你","Price":18.00},
+									{"pid":"ls10010","srcimg":"images/ls10.jpg","name":"（现金价）320g吧噔蛋糕原味","Price":17.00}
+
+	  							 ]
+	  				}
+	  			],
+  "cosmetology":[
+  					{
+  						"hufu":[
+  									{"pid":"hf1001","srcimg":"images/hf1.jpg","name":"（现金价）全悠 氨基酸泡沫洗面","Price":102.00},
+									{"pid":"hf1002","srcimg":"images/hf2.jpg","name":"（现金价）亚缇克兰炭精净肌面膜","Price":240.00},
+									{"pid":"hf1003","srcimg":"images/hf3.jpg","name":"（现金价）小草玻尿酸微元素硒硒","Price":58.00},
+									{"pid":"hf1004","srcimg":"images/hf4.jpg","name":"（现金价）小草 理肤皂2块套装","Price":128.00},
+									{"pid":"hf1005","srcimg":"images/hf5.jpg","name":"（现金价）究美 净萃钻亮黑眼膜","Price":139.00},
+									{"pid":"hf1006","srcimg":"images/hf6.jpg","name":"（现金价）绿韵兰茜芦荟胶41g","Price":38.00},
+									{"pid":"hf1007","srcimg":"images/hf7.jpg","name":"(现金价)小草玻尿酸金蚕丝美容","Price":58.00},
+									{"pid":"hf1008","srcimg":"images/hf8.jpg","name":"（现金价）ILISYA面膜贴胶","Price":15.00},
+									{"pid":"hf1009","srcimg":"images/hf9.jpg","name":"（现金价）瑞士La Villo","Price":560.00},
+									{"pid":"hf10010","srcimg":"images/hf10.jpg","name":"亚缇克兰清妍盈肌乳液100ml","Price":79.00}
+  							   ]
+  					}
+
+
+
+
+
+	  			],
+  		"shoes":[
+  					{
+  						"girlShoes":[
+  										{"pid":"nvx1001","srcimg":"images/nvx1.jpg","name":"五言诗 拼色搭扣真皮粗跟凉鞋 W15YB888 绿色","Price":236.00},
+										{"pid":"nvx1002","srcimg":"images/nvx2.jpg","name":"Woo Poem五言诗 真皮系带舒适休闲女鞋 W14YS801D","Price":236.00},
+										{"pid":"nvx1003","srcimg":"images/nvx3.jpg","name":"五言诗 新款真皮编织内增高女鞋 1215-1 黑色","Price":238.00},
+										{"pid":"nvx1004","srcimg":"images/nvx4.jpg","name":"五言诗 新款真皮圆头单鞋 776","Price":296.00},
+										{"pid":"nvx1005","srcimg":"images/nvx5.jpg","name":"五言诗 真皮牛筋底护士鞋 W15Y2015 橘色","Price":299.00},
+										{"pid":"nvx1006","srcimg":"images/nvx6.jpg","name":"五言诗 真皮镂空浅口女鞋 3567","Price":310.00},
+										{"pid":"nvx1007","srcimg":"images/nvx7.jpg","name":"五言诗 真皮包头民族风女鞋 5853-2 黄色","Price":310.00},
+										{"pid":"nvx1008","srcimg":"images/nvx8.jpg","name":"五言诗 真皮女鞋 W15Y095-30","Price":316.00},
+										{"pid":"nvx1009","srcimg":"images/nvx9.jpg","name":"五言诗 女士皮鞋 W15YS13001","Price":318.00},
+										{"pid":"nvx10010","srcimg":"images/nvx10.jpg","name":"五言诗 真皮镂空女靴 W14A101-18","Price":320.00}
+
+
+  									]
+  					}
+  				]
+}
+	
+

@@ -1,0 +1,96 @@
+/*--------------------脚部页面样式*/
+/*脚部*/
+#footWrap{
+	width: 100%;height: 547px;
+	background: rgb(40,40,40);
+}
+#foots{
+	width: 1200px;height: 547px;
+	margin:0 auto;
+	padding: 40px 0 0 45px;
+	box-sizing: border-box;
+}
+#foots>.left{
+	float: left;
+	width: 56px;height: 59px;
+	background: url(../images/tflogo.png) no-repeat;
+}
+#foots>.right{
+	float: right;
+	width: 995px;height: 507px;
+}
+.FtCla-div{
+	float: left;
+	width: 110px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+.FtCla-div>h1{
+	color: rgb(153,153,153);
+	height: 35px;
+	font-size: 14px;
+	line-height: 26px;
+	border-bottom: 1px solid rgb(60,60,60);
+}
+.FtCla-div>ul>li{
+	width: 120px;
+	line-height: 17px;
+	margin-top: 5px;
+}
+.FtCla-div>ul>li>a{
+	font-size: 12px;
+	color: rgb(153,153,153);
+}
+.footMenu{
+	clear: both;
+	width:915px;
+	height: 55px;
+	margin-bottom: 30px;
+	border-top: 1px solid rgb(60,60,60);
+	border-bottom: 1px solid rgb(60,60,60);
+}
+.footMenu>ul>li{
+	float: left;
+	line-height: 55px;
+}
+.footMenu>ul>li>img{
+	vertical-align: middle;
+}
+.footMenu>ul>li>span{
+	font-size: 15px;
+	color: rgb(102,102,102);
+	margin-left: 5px;
+}
+.footMenu>ul>li{
+	margin:0 25px;
+}
+.footMenu>ul>li:nth-of-type(1){
+	margin-right: 29px;
+}
+/*证书版权部分*/
+.certificate{
+	width: 100%;
+	height: 72px;
+	margin-bottom: 30px;
+}
+.certificate>a{
+	display: block;
+	color: rgb(103,103,103);
+	font-size: 12px;
+	margin-top: 5px;
+}
+.Police>li{
+	float: left;
+	margin-right: 3px;
+}
+#footWrap>#foots>.right a:hover{
+	color: #ff5009;
+}
+.footMenu>ul>li span:hover{
+	color: #ff5009;
+	cursor: pointer;
+}
+.Police>li>img:hover{
+	cursor: pointer;
+}
+

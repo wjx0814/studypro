@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="head">
+		<div class="headwrap">
+			<div class="logo"></div>
+			<ul id="headNav">
+				<li>您好，欢迎光临成谋商城！ </li>
+				<li class="links"><a href="land.html" style="color: #06c">请登录</a></li>
+				<li class="help">
+					<i class="one"></i>
+					帮助中心
+					<i class="send"></i>
+					<ul class="help-subNav">
+						<li><a href="#">购物流程</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">在线退换货</a></li>
+						<li><a href="#">在线支付</a></li>
+						<li><a href="#">配送方式</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 表单注册 -->
+	<div id="con">
+		<form target="hidden_frame">
+			<ul id="formWrip">
+				<li>
+					<span class="label">
+						<b>*</b>
+						用户名：
+					</span>
+					<div class="incon">
+						<input type="text" id="user" name="">
+						<i></i>
+					</div>
+					<p class="default-prompt">
+						（请用英文字母或数字注册，不支持中文及特殊符号如:*%#!-&%$，最长15个字）
+					</p>
+					<p class="error-prompt">
+						用户名不能为空！
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						请设置密码：
+					</span>
+					<div class="incon">
+						<!-- <input type="text" id="pass" name=""> -->
+						<input type="password" id="pass" name="">
+						<i style="background-position: -150px 0px"></i>
+					</div>
+					<p class="default-prompt">
+						请输入带有数字和字母的密码，例如2332ssa！最少6个
+					</p>
+					<p class="error-prompt">
+						密码格式错误！
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						请确认密码：
+					</span>
+					<div class="incon">
+						<input type="password" id="rpass" name="">
+						<i style="background-position: -150px 0px"></i>
+					</div>
+					<p class="default-prompt">
+						请输入带有数字和字母的密码，例如2332ssa！最少6个
+					</p>
+					<p class="error-prompt">
+						两次密码不一致
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						设二级密码：
+					</span>
+					<div class="incon">
+						<input type="password" id="sendPass"  name="">
+						<i style="background-position: -150px 0px"></i>
+					</div>
+					<p class="default-prompt">
+						请输入带有数字和字母的二级密码(更改会员资料时用到，必须牢记,最少6个)
+					</p>
+					<p class="error-prompt">
+						格式错误
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						确认二级密码：
+					</span>
+					<div class="incon">
+						<input type="password" id="rsendPass" name="">
+						<i style="background-position: -150px 0px"></i>
+					</div>
+					<p class="default-prompt">
+						输入二级确认密码(请输入带有数字和字母的二级密码,最6个)
+					</p>
+					<p class="error-prompt">
+						两次密码不一致
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						真实姓名：
+					</span>
+					<div class="incon">
+						<input type="text" id="actualName" name="">
+						<i class="phone"></i>
+					</div>
+					<p class="default-prompt">
+						请输入真实姓名(为了确保能够正确收货，请正确填写！只能输入汉字！最长15个字)
+					</p>
+					<p class="error-prompt">
+						格式错误
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						验证手机：
+					</span>
+					<div class="incon">
+						<input type="text" id="phone" name="">
+						<i></i>
+					</div>
+					<p class="default-prompt">
+						请输入验证手机号 (为了方便找回密码，请正确填写号码,只能输入数字！)
+					</p>
+					<p class="error-prompt">
+						格式错误
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						短信验证码：
+					</span>
+					<div class="incon information">
+						<input type="text" name="" id="verCode">
+						<input type="button" name="" value="获取短信验证码">
+						<input type="text" id="verifiCode" name="">
+					</div>
+					<p class="default-prompt">
+						输入正确的验证码
+					</p>
+					<p class="error-prompt">
+						验证码错误
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						商家本人会员：
+					</span>
+					<div class="incon">
+						<input type="text" name="">
+						<i></i>
+					</div>
+					<p class="default-prompt">
+						会员注册不用填写
+					</p>
+					<p class="error-prompt">
+						格式错误
+					</p>
+				</li>
+				<li>
+					<span class="label">
+						<b>*</b>
+						所在区域：
+					</span>
+					<div class="incon address">
+						<select id="prosel" class="province">
+							<!-- <option selected="selected" value="0">-选择省份-</option>
+							<option value="1">北京市</option> -->
+						</select>
+						<select id="citysel" class="city">
+							<!-- <option selected="selected" value="0">-选择市-</option>
+							<option value="1">北京市</option> -->
+						</select>
+						<select id="areasel" class="area">
+							<!-- <option selected="selected" value="0">-选择县/区-</option>
+							<option value="1">北京市</option> -->
+						</select>
+					</div>
+				</li>
+				<li>
+					<div class="agreement">
+						<input type="checkbox" name="">
+						我已阅读并同意
+						<a href="#">《成谋用户注册协议》</a>
+						请接受服务条款
+					</div>
+				</li>
+				<li>
+					<div class="agreement btnwrap">
+						<input type="submit" name="" id="btn" value="立即注册">
+					</div>
+				</li>
+			</ul>
+		</form>
+
+
+		<!-- 处理不刷新页面 -->
+		<iframe name='hidden_frame' id="hidden_frame" style="display:none"></iframe>  
+
+		
+
+	<p class="copyright">
+		Copyright © 2014-2016 shcmsc.com 成谋商城 版权所有 
+	</p>
+
+
+	</div>
+	
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script type="text/javascript" src="js/register.js"></script>

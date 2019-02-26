@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="./javascripts/lib/md5.js"></script>
+</head>
+<body>
+    <input type="text" class="username" name="username" placeholder="请输入用户名"><br>
+    <input type="password" class="pas" name="pas" placeholder="请输入密码"><br>
+    <button class="btn">login</button>
+</body>
+    <script>
+        $('.btn').on('click',function(e){
+            var username = $('.username').val()
+            var pas = $('.pas').val()
+            $.ajax({
+                type: "post",
+                url: "/login",
+                data: {
+                    username:username,
+                    pas:Number(pas)
+                },
+                success: function (res) {
+                    console.log(res)
+                }
+            });
+
+        })
+    </script>
+</html>

@@ -1,0 +1,212 @@
+/*头部*/
+#head{
+	width: 100%;
+	height: 100px;
+}
+.headwrap{
+	width: 1200px;
+	height: 100px;
+	margin:0 auto;
+}
+.headwrap>.logo{
+	width: 208px;
+	height: 100px;
+	float: left;
+	background: url(../images/logo.png) no-repeat center;
+}
+#headNav{
+	float: right;
+	width: 330px;
+	height: 100px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+#headNav>li{
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+#headNav li.links{
+	margin:0 25px 0 15px;
+}
+#headNav li.help{
+	width: 85px;
+	color: #333;
+}
+#headNav li.help i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	background:  url(../images/login.png) no-repeat;
+}
+#headNav li.help i.one{
+	width: 16px;
+	height: 20px;
+	background-position: -344px 1px;
+}
+#headNav li.help i.send{
+	width: 10px;
+	background-position: -347px -28px;
+}
+#headNav li.help>ul{
+	width: 85px;
+	height: 127px;
+	display: none;
+}
+#headNav li.help>ul>li{
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	text-indent: 20px;
+	border-top: 1px dotted #ccc;
+}
+#headNav li.help>ul>li>a{
+	color: #666;
+}
+/*表单注册*/
+#con{
+	width: 100%;height: 980px;
+	padding: 50px 0 0 155px;
+	box-sizing: border-box;
+	background: #fafafa;
+}
+#con>form{
+	width: 1045px;
+	margin-bottom: 25px;
+	border:1px solid #ccc;
+}
+#con>form>ul{
+	width: 100%;
+	height: 100%;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+#con>form>ul>li{
+	width: 1000px;
+	height: 35px;
+	margin:0px auto 30px;
+}
+#formWrip>li>*{
+	display: inline-block;
+}
+
+#formWrip>li>span.label{
+	width: 220px;
+	font-size: 14px;
+	color: #666;
+	text-align: right;
+}
+#formWrip>li>span.label>b{
+	font-family: "Simsun";
+    margin-right: 5px;
+    font-weight: normal;
+    color: red;
+}
+#formWrip>li>.incon{
+	width: 270px;
+	height: 33px;
+	position: relative;
+	border:1px solid #ccc;
+}
+#formWrip>li>.incon>input{
+	outline: none;
+	border: none;
+	line-height: 35px;
+	width: 100%;
+	text-indent: 5px;
+}
+#formWrip>li>.incon>i{
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	right: 10px;
+	bottom: 8px;
+	background: url(../images/login.png) no-repeat -50px 0;
+}
+#formWrip>li>.incon>i.phone{
+	background: url(../images/01.gif) no-repeat 3px 0px;
+}
+#formWrip>li>.default-prompt,#formWrip>li>.error-prompt{
+	color: #999;
+	font-size: 12px;
+	width: 500px;
+	display: inline-block;
+	display: none;
+	margin-top: 10px;
+	float: right;
+}
+#formWrip>li>.error-prompt{
+	color: red;
+}
+#formWrip>li>.information{
+	border:none;
+	width: 402px;
+}
+#formWrip>li>.information>input{
+	border:1px solid #ccc;
+	width: 130px;
+	line-height: 33px;
+}
+#formWrip>li>.information>input[type="button"]{
+	color: #666;
+	font-size: 12px;
+}
+#formWrip>li>.information>#verifiCode{
+	display: none;
+	color: red;
+	text-align: center;
+	letter-spacing: 5px;
+}
+#formWrip>li>.information~p{
+	width: 370px;
+}
+#formWrip>li>div.address{
+	width: 380px;
+	border:none;
+}
+#formWrip>li>div.address>select{
+	width: 120px;
+	height: 33px;
+	line-height: 33px;
+	outline: none;
+	border:1px solid #ccc;
+}
+#formWrip>li>div.agreement{
+	width: 740px;
+	height: 35px;
+	color: #666;
+	font-size: 12px;
+	line-height: 35px;
+	text-align: center;
+}
+#formWrip>li>div.agreement>input{
+	outline: none;
+	vertical-align: middle;
+}
+.agreement>a{
+	color: #1989BC;
+}
+.agreement>a:hover{
+	color: rgb(255,85,0);
+}
+#formWrip>li>div.btnwrap{
+	width: 705px;
+}
+#formWrip>li>div.btnwrap>input{
+	width: 273px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	border: none;
+	outline: none;
+	background: #21a900;
+}
+.copyright{
+	width: 1045px;
+	color: #333;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}

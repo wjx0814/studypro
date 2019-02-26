@@ -1,0 +1,163 @@
+/*侧边栏*/
+
+#sidebarabd{
+	width: 30px;
+	height: 632px;
+	background: #444851;
+	position: fixed;
+	right: 0;
+	bottom: 14px;
+	padding-top: 140px;
+	box-sizing: border-box;
+}
+#sidebarabd>.sidetop{
+	width: 30px;
+	height: 340px;
+	/*background: yellow;*/
+}
+#sidebarabd>.sidetop>li{
+	width: 40px;
+	position: relative;
+}
+#sidebarabd>.sidetop>li>i{
+	display: block;
+	width: 40px;
+	height: 20px;
+	background:url(../images/ibar_sprites.png) no-repeat;
+}
+#sidebarabd>.sidetop>li a{
+	display: block;
+	width: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	/*background: red;*/
+}
+#sidebarabd>.sidetop>li:nth-of-type(1)>i{
+	background-position: 4px 1px;
+}
+#sidebarabd>.sidetop>li:nth-of-type(2){
+	padding-top: 10px;
+	box-sizing: border-box;
+	height: 132px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	/*background: #fa7143;*/
+}
+#sidebarabd>.sidetop>li:nth-of-type(2)>i{
+	background-position: 4px -29px;
+}
+#sidebarabd>.sidetop>li:nth-of-type(2)>.circular{
+	width: 24px;
+	height: 24px;
+	margin:10px 4px 0;
+	border-radius: 50%;
+	background: #21a900;
+}
+#sidebarabd>.sidetop>li:nth-of-type(3){
+	height: 155px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	/*background: blue;*/
+}
+#sidebarabd>.sidetop>.cirstr>i{
+	margin-bottom: 15px;
+}
+#sidebarabd>.sidetop>.cirstr>i:nth-of-type(1){
+	background-position: 6px -57px;
+}
+#sidebarabd>.sidetop>.cirstr>i:nth-of-type(2){
+	background-position: 6px -57px;
+}
+#sidebarabd>.sidetop>.cirstr>i:nth-of-type(3){
+	background-position: 6px -110px;
+}
+#sidebarabd>.sidetop>.cirstr>i:nth-of-type(4){
+	background-position: 6px -57px;
+}
+#sidebarabd>.sidetop>li.usname>div{
+	position: absolute;
+	width: 240px;
+	height: 165px;
+	top:-70px;
+	right:40px;
+	background: aqua;
+
+}
+.usnameWrap>.top{
+	width: 210px;
+	height: 100px;
+	margin: 15px auto 0;
+	background: yellow;
+}
+.usnameWrap>.top>p{
+	display: inline-block;
+}
+.usnameWrap>.top>p.picture{
+	width: 85px;
+	height: 95px;
+	background: pink;
+}
+.usnameWrap>.top>p.usinfo{
+	width: 120px;
+	background: green;
+}
+p.usinfo>span{
+	color: #666;
+	height: 95px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+#sidebarabd>.sidebot{
+	width: 30px;
+	height: 160px;
+	/*background: pink;*/
+	position: absolute;
+	/*bottom: 0;*/
+	bottom: -40px;
+	right: 0;
+}
+#sidebarabd>.sidebot>li{
+	height: 35px;
+	margin-top: 8px;
+	/*background: yellow;*/
+}
+#sidebarabd>.sidebot>li>i{
+	display: block;
+	width: 40px;
+	height: 20px;
+	background:url(../images/ibar_sprites.png) no-repeat;
+}
+#sidebarabd>.sidebot>li:nth-of-type(1)>i{
+	background-position: 6px -175px;
+}
+#sidebarabd>.sidebot>li:nth-of-type(2)>i{
+	background-position: 6px -175px;
+}
+#sidebarabd>.sidebot>li:nth-of-type(3)>i{
+	background-image: url(../images/fotar.jpg);
+	background-position: 6px 0px;
+}
+#sidebarabd>.sidebot>li:nth-of-type(4)>i{
+	background-image: url(../images/topd.jpg);
+	background-position: 6px 0px;
+}
+#sidebarabd>.sidetop>li:hover{
+	background: rgb(255,85,0)
+}
+#sidebarabd>.sidetop>.cirstr:hover{
+	background: #444851;
+}
+#sidebarabd>.sidetop>.cirstr>i:hover{
+	background-color: rgb(255,85,0);
+}
+#sidebarabd>.sidebot>li:hover{
+	background: rgb(255,85,0)
+}

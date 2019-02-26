@@ -1,0 +1,13 @@
+商品分类：
+	shopClassify [
+	{
+		img,classifyname,
+		subclassify:{
+			title:[]
+			titlist:[
+				[],[],[],
+			]
+			pinpai:[imgsrc,imgsrc]
+		}
+	}
+	]

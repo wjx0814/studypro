@@ -1,0 +1,187 @@
+/*头部*/
+#head{
+	width: 100%;
+	height: 100px;
+}
+.headwrap{
+	width: 1200px;
+	height: 100px;
+	margin:0 auto;
+}
+.headwrap>.logo{
+	width: 208px;
+	height: 100px;
+	float: left;
+	background: url(../images/logo.png) no-repeat center;
+}
+#headNav{
+	float: right;
+	width: 330px;
+	height: 100px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+#headNav>li{
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+#headNav li.links{
+	margin:0 25px 0 15px;
+}
+#headNav li.help{
+	width: 85px;
+	color: #333;
+	/*border:1px solid #ccc;*/
+}
+#headNav li.help i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	background:  url(../images/login.png) no-repeat;
+}
+#headNav li.help i.one{
+	width: 16px;
+	height: 20px;
+	background-position: -344px 1px;
+}
+#headNav li.help i.send{
+	width: 10px;
+	background-position: -347px -28px;
+}
+#headNav li.help>ul{
+	width: 85px;
+	height: 127px;
+	display: none;
+}
+#headNav li.help>ul>li{
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	text-indent: 20px;
+	border-top: 1px dotted #ccc;
+}
+#headNav li.help>ul>li>a{
+	color: #666;
+}
+/*主体部分*/
+#con{
+	width: 100%;
+	height: 570px;
+	/*background: #fafafa url(../images/regist_topshadow.png) ;*/
+	background: #fafafa;
+}
+.conwrap{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.conwrap>.leftimg{
+	float: left;
+	width: 561px;
+	height: 486px;
+	background:url(../images/loginimg.png) no-repeat center;
+}
+.conwrap>.entry{
+	float: left;
+	width: 500px;
+	height: 450px;
+	margin:60px 0 0 30px;
+	border:1px solid #ccc;
+}
+.entry>.form-wrap{
+	width: 350px;
+	height: 190px;
+	margin:70px auto 0;
+}
+.entry>.form-wrap input{
+	width: 348px;
+	height: 50px;
+	color: #666;
+	line-height: 50px;
+	text-indent: 70px;
+	outline: none;
+	border:1px solid #ccc;
+}
+.entry>.form-wrap input[name="password"]{
+	border-top: none;
+}
+.entry>.form-wrap div.inputwrap{
+	position: relative;
+	height: 104px;
+}
+.entry>.form-wrap i{
+	display: inline-block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: url(../images/login.png);
+}
+.entry>.form-wrap i.uslogo{
+	top: -90px;
+	left: 25px;
+	background-position: -48px 2px;
+}
+.entry>.form-wrap i.passlogo{
+	top: -38px;
+	left: 5px;
+	background-position: -148px 2px;
+}
+.form-wrap>form>.register-wrap{
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	font-size: 12px;
+	text-align: right;
+}
+.register-wrap>a{
+	color: #999;
+	margin-left: 20px;
+}
+.form-wrap>form>button{
+	width: 100%;
+	height: 43px;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	text-align: center;
+	line-height: 40px;
+	background: #21A900;
+}
+.entry>.stripe{
+	width: 395px;
+	height: 9px;
+	margin:23px auto 15px;
+	background:url(../images/login_repeat_line.png);
+}
+.entry>.cooperation{
+	width: 355px;
+	height: 110px;
+	margin:0 auto;
+}
+.entry>.cooperation>p{
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+}
+.entry>.cooperation>i{
+	display: inline-block;
+	width: 33px;
+	height: 35px;
+	margin-top: 15px;
+	background: url(../images/login_icon_bg.png) -159px 2px;
+}
+.entry>.cooperation>i:hover{
+	background-position: -159px -54px;
+}
+.conwrap>.copyright{
+	clear: both;
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+}

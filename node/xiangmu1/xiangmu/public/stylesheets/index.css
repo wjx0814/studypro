@@ -1,0 +1,12 @@
+body{
+    background: #0d1953;
+    position: relative;
+}
+.box {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    left: 0;top: 0;
+    background: #fff;
+    margin: auto;
+}

@@ -1,0 +1,11 @@
+/*项目公共样式*/
+*{margin:0; padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.f12{font-size: 12px;}
+.eliminate{clear: both;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.clearmargin{margin-right:0;}

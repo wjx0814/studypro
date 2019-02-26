@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/land.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="head">
+		<div class="headwrap">
+			<div class="logo"></div>
+			<ul id="headNav">
+				<li>您好，欢迎光临成谋商城！ </li>
+				<li class="links"><a href="land.html" style="color: #06c">请登录</a></li>
+				<li class="help">
+					<i class="one"></i>
+					帮助中心
+					<i class="send"></i>
+					<ul class="help-subNav">
+						<li><a href="#">购物流程</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">在线退换货</a></li>
+						<li><a href="#">在线支付</a></li>
+						<li><a href="#">配送方式</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 主体 -->
+	<div id="con">
+		<div class="conwrap">
+			<!-- 图片、表单 -->
+			<div class="leftimg"></div>
+			<div class="entry">
+				<!-- 表单 -->
+				<div class="form-wrap">
+					<form target="hidden_frame">
+						<div class="inputwrap">
+							<input type="text" id="user" name="username" placeholder="用户名">
+							<input type="password" id="pass" name="password" placeholder="密码">
+							<i class="uslogo"></i><i class="passlogo"></i>
+						</div>
+						<p class="register-wrap">
+							<a href="register.html">免费注册</a>
+							<a href="#">忘记密码？&nbsp;</a>
+						</p>
+						<button id="logobtn">登录</button>
+					</form>
+					<!-- 处理不刷新页面 -->
+					<iframe name='hidden_frame' id="hidden_frame" style="display:none"></iframe>  
+
+
+				</div>
+
+				<!-- 横线 -->
+				<div class="stripe"></div>
+
+				<!-- 合作伙伴 -->
+				<div class="cooperation">
+					<p>合作网站账号登录</p>
+					<i></i>
+				</div>
+			</div>
+
+			<!-- 版权 -->
+			<div class="copyright">
+				Copyright © 2014-2016 shcmsc.com 成谋商城 版权所有
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script type="text/javascript" src="js/land.js"></script>

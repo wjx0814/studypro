@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    circle {
+        stroke-width: 5;
+        stroke: #f00;
+        fill: #ff0;
+    }
+        circle:hover {
+        stroke: #090;
+        fill: #fff;
+    }
+</style>
+<body>
+    <!-- viewBox="0 0 200 200" -->
+    <svg id="mysvg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+        <circle id="mycircle" cx="100" cy="100" r="50" />
+    </svg>
+</body>
+</html>
+<script>
+    var mycircle = document.getElementById('mycircle');
+    mycircle.addEventListener('click', function(e) {
+      console.log('circle clicked - enlarging');
+      mycircle.setAttribute('r', 60);
+    }, false);
+</script>
